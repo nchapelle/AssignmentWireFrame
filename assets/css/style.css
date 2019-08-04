@@ -1,0 +1,33 @@
+
+/* These are the requirements 
+
+   */
+
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color #777;
+    Background: Linen;
+    
+   
+
+}
+
+Nav, Section, Aside, Footer{
+background: #ebebeb;
+}
+
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+    
+    position: relative;
+    color: white; 
+    text-align: center;
+    background-color: DarkTurquoise;
+    width: 33%;
+    left: 5%;
+    
+}
+
