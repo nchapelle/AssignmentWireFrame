@@ -12,35 +12,8 @@ body {
 
 }
 
-Nav, Section, Aside, Footer{
-background: #ebebeb;
-}
-
-header {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-nav{
-    padding: 10px
-}
-
-/*Having Hard time sorting my class*/
-
-p.contactMe{
-    position: relative;
-    float: left;
-    top right; 
-    color: white;
-}
-p.portfolio{
-    float: left:
-}
-
-
-
-
 h1 {
-    
+    float: left;
     position: relative;
     color: white; 
     text-align: center;
@@ -51,4 +24,65 @@ h1 {
     left: 5%;
     
 }
+
+Section, Aside, Footer{
+background: #ebebeb;
+}
+
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 5%;
+}
+
+
+
+/*Having Hard time sorting my class*/
+
+.about{
+    float: right;
+    color: black;
+    background: pink;
+    width: 15%;
+    padding: 7px;
+    text-align: center;
+    margin-top: 12px;
+    padding: 10px;
+    font-size: 12px;
+    height: 5%;
+}
+
+.contactMe{
+    float: right;
+    color: black;
+    background: pink;
+    width: 15%;
+    padding: 7px;
+    text-align: center;
+    margin-top: 12px;
+    padding: 10px;
+    font-size: 12px;
+    height: 5%;
+}
+.portfolio{
+    position: relative;
+    color: black;
+    background: lavender;
+    padding: 7px;
+    float: right;
+    width: 15%;
+    text-align: center;
+    margin-top: 12px;
+    padding: 10px;
+    font-size: 12px;
+    height: 5%;
+}
+
+.container{
+    clear: both;
+}
+
+
+
+
+
 
