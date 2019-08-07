@@ -20,7 +20,7 @@ h1 {
     background-color: DarkTurquoise;
     border-left: 12px blue solid;
     padding: 14px;
-    width: 78%;
+    width: 100%;
     left: 5%;
     bottom: 0px;
     margin: 7% 0px 0px 0px;
@@ -28,9 +28,6 @@ h1 {
     
 }
 
-Section, Aside, Footer{
-background: #ebebeb;
-}
 
 header {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -58,7 +55,7 @@ header {
 }
 
 .container {
-   float: top;
+    clear: both;
     color: black;
     width: 80%;
     border: solid black;
