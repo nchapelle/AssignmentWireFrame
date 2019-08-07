@@ -15,13 +15,16 @@ body {
 h1 {
     float: left;
     position: relative;
-    color: white; 
-    text-align: center;
+    color: white;
+    text-align: left;
     background-color: DarkTurquoise;
     border-left: 12px blue solid;
-    padding: 10px;
-    width: 25%;
+    padding: 14px;
+    width: 78%;
     left: 5%;
+    bottom: 0px;
+    margin: 7% 0px 0px 0px;
+    font-size: 44px
     
 }
 
@@ -38,49 +41,39 @@ header {
 
 /*Having Hard time sorting my class*/
 
-.about{
+.nav {
     float: right;
-    color: black;
-    background: pink;
-    width: 15%;
-    padding: 7px;
-    text-align: center;
-    margin-top: 12px;
-    padding: 10px;
-    font-size: 12px;
-    height: 5%;
-}
-
-.contactMe{
-    float: right;
-    color: black;
-    background: pink;
-    width: 15%;
-    padding: 7px;
-    text-align: center;
-    margin-top: 12px;
-    padding: 10px;
-    font-size: 12px;
-    height: 5%;
-}
-.portfolio{
     position: relative;
-    color: black;
-    background: lavender;
-    padding: 7px;
-    float: right;
-    width: 15%;
+    color: white;
     text-align: center;
-    margin-top: 12px;
+    width: 50%;
+    margin: 0px 0px 0px 0px;
+    font: 12px; 
+    bottom: 52px;
+}
+
+.nav li {
+    display: inline-block;
     padding: 10px;
-    font-size: 12px;
-    height: 5%;
 }
 
-.container{
-    clear: both;
+.container {
+   float: top;
+    color: black;
+    width: 80%;
+    border: solid black;
+    margin: 0px 0px 0px 5%;
+    text-overflow: initial;
 }
 
+#contact-info {
+  position: absolute;
+  left: 0;
+  top: 90%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
 
 
 
