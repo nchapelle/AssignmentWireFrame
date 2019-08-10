@@ -11,7 +11,7 @@
 /* The navigation bar */
 .navbar {
     overflow: hidden;
-    background-color: darkturquoise;
+    background-color: snow;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -23,7 +23,7 @@
   .navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: darkturquoise;
     text-align: center;
    /* padding: 14px 16px;*/
     text-decoration: none;
@@ -40,9 +40,9 @@ h1 {
     position: relative;
     float: left;
     color: white;
-    text-align: left;
+    text-align: center;
     /* border-left: 12px blue solid; */
-    width: 45%;
+    width: 25%;
     height: 50px;
     margin: 0px;
     font-size: 44px;
@@ -53,8 +53,8 @@ h1 {
 
 
 .nav {
-    background: darkturquoise;
-    color: white;
+    background: snow;
+    color: darkturquoise;
     text-align: right;
     position: relative;
     float: right;
@@ -83,7 +83,7 @@ h1 {
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: darkturquoise;
     font-size: 16px;
     padding:0px;
 }
