@@ -102,11 +102,11 @@ a:link {
 
 .content-box {
         position: relative;
-        height: 500px;
-        width: 60%;
+        height: 420px;
+        width: 80%;
         max-width: 100%;
         border: 5px solid #a9a9a9;
-        background-color: linen ;
+        background-color: white ;
         margin: auto;
         
  
