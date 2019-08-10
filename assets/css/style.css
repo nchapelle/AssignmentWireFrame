@@ -40,7 +40,7 @@ h1 {
     float: left;
     color: white;
     text-align: left;
-    border-left: 12px blue solid;
+    /* border-left: 12px blue solid; */
     width: 45%;
     height: 50px;
     margin: 0px;
