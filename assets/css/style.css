@@ -11,7 +11,7 @@
 /* The navigation bar */
 .navbar {
     overflow: hidden;
-    background-color: snow;
+    background-color: white;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -31,7 +31,7 @@
   
   /* Change background on mouse-over */
   .navbar a:hover {
-    background: snow;
+    background: white;
     color: darkturquoise;
   }
 
@@ -53,7 +53,7 @@ h1 {
 
 
 .nav {
-    background: snow;
+    background: white;
     color: darkturquoise;
     text-align: right;
     position: relative;
@@ -62,6 +62,7 @@ h1 {
     height: 50px;
     top: 17px;
     right: 8px;
+    margin-right: 20%;
     
   
     
@@ -70,7 +71,7 @@ h1 {
 
 
 .nav li {
-    display:inline;
+    
     /* background: blue; */
     text-decoration: none;  
     display: inline-block;
@@ -102,11 +103,11 @@ a:link {
 .content-box {
         position: relative;
         height: 500px;
-        width: 80%;
+        width: 60%;
         max-width: 100%;
         border: 5px solid #a9a9a9;
         background-color: linen ;
-        margin: 0 10% 0 10%;
+        margin: auto;
         
  
 }
@@ -164,17 +165,17 @@ footer {
 /*portfolio flexbox*/
 .port-container {
     position: sticky;
-    background-color: black;
+    background-color: white;
     width: 83%;
-    height: 811px;
-    left: 72px;
+    height: 420px;
+    margin: auto;
 }
 
 .flex-container {
   padding: 0;
   margin: 0;
   list-style: none;
-  border: 1px solid silver;
+  /* border: 1px solid silver; */
   -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -moz-box;
@@ -182,12 +183,14 @@ footer {
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
+  justify-content: space-around;
 }
 .wrap    { 
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
   }  
   .wrap li {
+    margin: 10px;
     background: gold;
   }
 
