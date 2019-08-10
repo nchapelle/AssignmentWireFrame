@@ -16,6 +16,7 @@
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     border-bottom: solid 5px grey;
+    z-index: 1;
   }
   
   /* Links inside the navbar */
@@ -46,6 +47,7 @@ h1 {
     margin: 0px;
     font-size: 44px;
     background:darkturquoise;
+    left: 5%;
     
 }
 
